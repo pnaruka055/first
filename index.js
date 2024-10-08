@@ -7,7 +7,7 @@ const path = require("path")
 
 async function dataBase() {
   try {
-    await mongoose.connect("mongodb+srv://pnaruka055:Premsing@cluster0.fny0e.mongodb.net//kumkum");
+    await mongoose.connect("mongodb+srv://pnaruka055:Premsing@cluster0.fny0e.mongodb.net/kumkum");
     console.log("dataBase connected Successfully");
   } catch (error) {
     console.log(error);
